@@ -7,6 +7,7 @@ Prerequisitos:
 El desarrollo contiene dos carpetas:
 1. Front: Aca se encuentra todo el desarrollo.  
 2. Back: Se encuentra la implementacion del api rest con swagger y la base de datos SQLite (task.db)
+3. UnitTest: en esta carpeta se encuentran las pruebas unitarias, relacionando el proyecto con Back.
 
 Funcionamiento:
 1. Levantar el microservicio rest con el comando "dotnet run2 dentro de la carpeta del back.  Aca indicara la url en  la cual se esta ejecutando.  Por ejemplo: http://localhost:4200
