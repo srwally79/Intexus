@@ -1,0 +1,24 @@
+<div *ngIf="mensaje != ''" [ngClass]="{'error': error === 1, 'ok': error === 0, 'warning': error === 2}">{{mensaje}}</div>
+<table>
+    <tr>
+        <td>Nombre:</td>
+        <td><input type="text" [(ngModel)]="tarea.nombre"></td>
+    </tr>
+    <tr>
+        <td>Fecha inicio:</td>
+        <td><input type="date" [(ngModel)]="tarea.fechaInicio"></td>
+    </tr>
+    <tr>
+        <td>Fecha fin:</td>
+        <td><input type="date" [(ngModel)]="tarea.fechaFin"></td>
+    </tr>
+    <tr>
+        <td>Completada:</td>
+        <td><input type="radio" value="1" id="completada1" name="completada" [(ngModel)]="tarea.completada"><label for="completada1">Si</label>
+            <input type="radio" value="0" id="completada0" name="completada" [(ngModel)]="tarea.completada"><label for="completada0">No</label></td>
+    </tr>
+    <tr>
+        <td colspan="2" class="pie"><button (click)="AgregarTarea()">Agregar</button></td>
+    </tr>
+
+</table>

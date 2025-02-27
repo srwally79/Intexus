@@ -1,0 +1,105 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+
+table{
+    width:100%;
+    border:0px;
+}
+
+th{
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #000;
+    text-align: center;
+    color:#FFF;
+}
+
+
+td{
+    height: 30px;
+    padding: 3px;
+    border-radius: 10px;
+    border:1px solid #ccc;
+    background-color: #FFF;
+}
+
+button{
+    background-color: #f0f0f0; 
+    color: black;  
+    border: 0.5px solid #ccc;  
+    padding: 10px; 
+    cursor: pointer; 
+    font-size: 14px;  
+    font-weight: bold;
+    margin:2px;
+    border-radius: 10px;;
+  }
+  
+  button:hover {
+    background-color: #f4f4f4;  
+  }
+
+  .pie{
+    text-align: center;
+    background-color: #000;
+  }
+
+  .error{
+    border:#ff0000;
+    width:100%;
+    height:30px;
+    background-color: #da5757;
+    float:left;
+    border-radius: 5px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    color:#FFF;
+  }
+
+  .ok{
+    border:#15ff00;
+    width:100%;
+    height:30px;
+    background-color: #95e98d;
+    float:left;
+    border-radius: 5px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    color:#000;
+  }
+
+  .warning{
+    border:#fffb00;
+    width:100%;
+    height:30px;
+    background-color: #f5f381;
+    float:left;
+    border-radius: 5px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    color:#000;
+  }
+
+  input{
+    background-color: #f4f4f4;
+    border:1px solid #ccc;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  select{
+    height: 30px;
+    font-size: 20px;
+  }
+
